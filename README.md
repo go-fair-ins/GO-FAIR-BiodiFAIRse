@@ -14,3 +14,13 @@ Biodiversity communities state-of-the-art -> gather informations about
 	- Data & metadata portals: Living atlases, Metacat, DEIMS, GeoNetwork
 	- Existing workflow-oriented initiatives: Taverna, Galaxy, WPS GIS webservices, Kepler
 Collaborative and workflows-oriented online platform for data access and analysis – European Galaxy for ecology https://ecology.usegalaxy.eu/
+
+### Indirect potential outputs
+Enhance Ecological Metadata Language specifications
+- Propose new types of data entities ?
+  - genomics ?
+  - media (sounds, images, videos)
+- Linking eml-software to software collaborative management systems
+Enhance useability of (Galaxy) tools and workflows by non-profesional scientists (citizen, middle school students, NGOs, protected areas managers, policy makers)
+
+
