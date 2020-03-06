@@ -15,6 +15,11 @@ Biodiversity communities state-of-the-art -> gather informations about
 	- Existing workflow-oriented initiatives: Taverna, Galaxy, WPS GIS webservices, Kepler
 Collaborative and workflows-oriented online platform for data access and analysis – European Galaxy for ecology https://ecology.usegalaxy.eu/
 
+## Big Shape
+![Domain specific hourglass](https://github.com/go-fair-ins/GO-FAIR-BiodiFAIRse/edit/master/BiodiFAIRse_hourglass.png "proposition of a biodiversity oriented domain hourglass")
+
+
+
 ### Indirect potential outputs
 Enhance Ecological Metadata Language specifications
 - Propose new types of data entities ?
