@@ -18,7 +18,7 @@ Collaborative and workflows-oriented online platform for data access and analysi
 ## Big Shape
 ![Domain specific hourglass](https://github.com/go-fair-ins/GO-FAIR-BiodiFAIRse/edit/master/BiodiFAIRse_hourglass.png "proposition of a biodiversity oriented domain hourglass")
 
-
+![Cross close domains hourglass](https://github.com/go-fair-ins/GO-FAIR-BiodiFAIRse/edit/master/BiodiFAIRse_hourglass_interdomains.png "proposition of a biodiversity oriented cross closed domains hourglass")
 
 ### Indirect potential outputs
 Enhance Ecological Metadata Language specifications
