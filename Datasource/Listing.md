@@ -1,3 +1,47 @@
+# From PNDB first screening
+# Interesting Data sources
+## Species data
+* Using R for occurences data through the spocc package: https://github.com/ropensci/spocc
+* Using mapr to display species occurences https://github.com/ropensci/mapr
+* Clean up occurences with scrubr https://github.com/ropensci/scrubr
+* Global Biodiversity Information Facility (GBIF) : https://www.gbif.org/developer/summary
+* IDigBio
+* PlutoF
+* BARCODE OF LIFE DATA SYSTEM (BOLD), Advancing biodiversity science through DNA-based species identification: http://boldsystems.org/index.php/resources/api?type=webservices. Example of API request can be:
+  * `http://boldsystems.org/index.php/API_Public/specimen?taxon=Aves&geo=Costa%20Rica&format=tsv`
+  * `http://boldsystems.org/index.php/API_Public/specimen?taxon=Dicentrarchus%20labrax&geo=France&format=tsv`
+  * `http://boldsystems.org/index.php/API_Public/specimen?taxon=taxon=Aves|Reptilia&geo=France&format=tsv`
+## Environmental data
+* IPSL https://cse.ipsl.fr/donnees/114-prodiguer
+* WorldClim - Global Climate Data http://www.worldclim.org/
+* Copernicus Climate Change Service Providing climate data http://climate.copernicus.eu/
+* Copernicus Marine Environment Monitoring Service Providing products & services for all marine applications http://marine.copernicus.eu/
+* Copernicus Atmosphere air quality & atmospheric composition https://atmosphere.copernicus.eu/catalogue#/
+* Copernicus Global Land Service Providing bio-geophysical products of global land surface http://land.copernicus.eu/global/products/NDVI (included [Corine Land Cover products](http://land.copernicus.eu/pan-european/corine-land-cover))
+* CESBIO Carte d'occupation des sols. http://www.cesbio.ups-tlse.fr/multitemp/?p=10104
+* GEONETCast global network of satellite-based data dissemination systems providing environmental data http://www.eumetsat.int/website/home/Data/DataDelivery/EUMETCast/GEONETCast/index.html
+* Donéens agricoles via Agreste: http://agreste.agriculture.gouv.fr/
+* Bio-ORACLE Marine data layers for ecological modelling: http://www.bio-oracle.org/ (R invocation through ```sdmpredictors::list_layers("Bio-ORACLE", version=2)``` )
+* MARSPEC monthly layers for temperature and salinity (R invocation through ```paleo: sdmpredictors::list_layers("MARSPEC")```) and paleo layers for these (R invocation through ```paleo: sdmpredictors::list_layers_paleo("MARSPEC")```): http://onlinelibrary.wiley.com/doi/10.1890/12-1358.1/abstract
+* Use of sdmpredictor R package:
+```library(sdmpredictors)
+
+# exploring the marine (you can also choose terrestrial) datasets
+datasets <- list_datasets(terrestrial = FALSE, marine = TRUE)
+```
+* downloading and working with the Marine SPEcies and Environmental Data (MarineSPEED.org) benchmark dataset: https://github.com/lifewatch/marinespeed
+* Hub’eau Water related data (fishes,…) http://www.hubeau.fr/
+* CRBPO data https://crbpodata.mnhn.fr/
+* Movebank data https://www.movebank.org/
+* API-Agro import agrifood related data http://www.api-agro.fr/
+* Free GIS geographic datasets: http://freegisdata.rtwilson.com/
+* Global Environmental Layers: http://worldgrids.org/doku.php
+* World Conservation Monitoring Centre: https://www.unep-wcmc.org/
+ * World Database on Protected Areas (WDPA) is the most comprehensive global database on terrestrial and marine protected areas.: https://protectedplanet.net/
+* Chelsea Climate (Climatologies at high resolution for the earth’s land surface areas ): http://chelsa-climate.org/
+* E-OBS gridded dataset : http://www.ecad.eu/download/ensembles/download.php
+* Global Lithological Map Database v1.0 https://doi.pangaea.de/10.1594/PANGAEA.788537
+
 # Biodiversity and ecosystem services in environmental profit & loss accounts, Chaplin-Kramer et  al., 2016 
 Resource URL: https://www.cisl.cam.ac.uk/resources/publication-pdfs/BESinEPLWorkingPaper.pdf
 From "Table S1. A list of potential datasets for use in estimating biodiversity impacts. This list is not comprehensive but gives a flavour of some of the more promising types of data available"
