@@ -1,0 +1,9 @@
+| DwC                 |                      | EML                                                                                  |    |                                                                   |   |   |
+|---------------------|----------------------|--------------------------------------------------------------------------------------|----|-------------------------------------------------------------------|---|---|
+| taxonID             | Required             | 4_eml-coverage/8_Taxonomic Classification Type/4_taxon Id                            |    |                                                                   |   |   |
+| scientificName      | Required             | Species Rank name (4_eml-coverage/8_Taxonomic Classification Type/1_taxon Rank Name) | et | 4_eml-coverage/8_Taxonomic Classification Type/2_taxon Rank Value |   |   |
+| taxonRank           | Required             | 4_eml-coverage/8_Taxonomic Classification Type/1_taxon Rank Name                     |    |                                                                   |   |   |
+| kingdom             | Strongly recommended | Kingdom Rank name (4_eml-coverage/8_Taxonomic Classification Type/1_taxon Rank Name) | et | 4_eml-coverage/8_Taxonomic Classification Type/2_taxon Rank Value |   |   |
+| parentNameUsageID   | Strongly recommended | attribute                                                                            |    |                                                                   |   |   |
+| acceptedNameUsageID | Strongly recommended | 4_eml-coverage/8_Taxonomic Classification Type/4_taxon Id                            |    |                                                                   |   |   |
+| vernacularName      | Share if available   | 4_eml-coverage/8_Taxonomic Classification Type/3_common Name                         |    |                                                                   |   |   |
