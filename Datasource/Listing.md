@@ -864,5 +864,53 @@ CoL / Fauna Europea search / GBIF / ITIS / NCBI / PESI / WoRMS  / DataOne / DEIM
 - https://cran.r-project.org/web/packages/spocc/index.html A programmatic interface to many species occurrence data sources, including GBIF, BISON, 'iNaturalist', Berkeley 'Ecoinformatics' Engine, 'eBird', Integrated Digitized 'Biocollections' ('iDigBio'), 'VertNet', Ocean 'Biogeographic' Information System ('OBIS'), and Atlas of Living Australia ('ALA').
 - https://cran.r-project.org/web/packages/rentrez/index.html Provides an R interface to the NCBI's 'EUtils' API, allowing users to search databases like 'GenBank' <https://www.ncbi.nlm.nih.gov/genbank/> and 'PubMed' <https://www.ncbi.nlm.nih.gov/pubmed/>
 
+# EBV oriented (indicators / EBV datasets / EBV workflows)
+two in situ EBVs (Kissling et al. 2017), and three remote sensing enabled EBVs (GlobDiversity project. In addition to those, there is a long list of other potential EBVs (Pereira et al. 2012; SBSTTA 17 do), but their development is not so far yet as these five. BONs’ opinions on the priorization of those was asked. 
+
+
+## In situ EBV data products
+Species distributions
+
+Population abundance
+
+
+## Remote sensing enabled EBV data products
+###Ecosystem extent and fragmentation
+- The leaf area density (LAD) profile of ecosystems conveys information of the total height of vegetation, its density, and its distribution along the vertical profile (MacArthur & Horn, 1969; Stark et al., 2012). These three components of ecosystem structure – vegetation height, vegetation density, and vertical heterogeneity – are primary observables that inform ecosystem structure EBVs related to habitat structure and condition. Moreover, their horizontal distribution can inform EBVs related to ecosystem extent and fragmentations, such as habitat area and connectivity (Kellner & Asner, 2009). Both vertical and horizontal ecosystem structure are related to biodiversity as they describe environmental gradients and the variety of niches that can be occupied by different species (Whittaker, 1972; Bunce et al., 2013).
+
+###Land surface phenology
+
+###Canopy chlorophyll content
+
+
+
+
+## EBV related Data
+-> NASA A-50 program
+-> e-Shape https://www.earthobservations.org/geo_blog_obs.php?id=364
+-> Kissling et al 2017 https://onlinelibrary.wiley.com/doi/full/10.1111/brv.12359 . 
+  - These projects represent data sets covering a range of spatial and temporal extents and resolutions, different measures of species distribution or abundance, and various statistical modelling and data analysis tools:
+   - eBIRD
+   - Tropical Ecology Assessment and Monitoring (TEAM) Network (www.teamnetwork.org) [abundance]
+   - LPI (Living Planet Index)
+   - BALTIC (national plankton monitoring programs in the Baltic region)
+  - +
+   - Long Term Ecological Research (LTER) Network (www.lternet.edu) [abundance]
+   - US National Ecological Observatory Network (NEON) (http://www.neonscience.org/) [abundance]
+   - 
+-> Globdiversity : https://www.globdiversity.net/download/data/ "coming soon" :(
+-> Marine BON https://mbon.ioos.us/#search?type_group=all&tag|tag=biodiversity-indices&page=2 données US, format SIG shapefile/csv/WMS/WFS / exemple de csv : https://data.axds.co/gs/mbon/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=csv&typeName=mbon:rvc_geoserver (fichier rvc_geoserver.csv)
+  - Global distribution of coral reef https://data.unep-wcmc.org/datasets/1
+- https://nvs.landcareresearch.co.nz/Data/DatasetDetails/4247/25913 permission required !  
+- "GCRMN Regional GCRMN datasets (Jackson et al., 2014; Obura et al., 2017; Moritz et al., 2018) are compiled and managed by GCRMN regional coordinators/data leads, in data files and programming code maintained on version-control platforms, such as GitHub"
+  -> pas de lien github direct, pas accès au document qui décrit ce lien github, aucune des 3 publications mentionnées ne donne accès à des données (quand publication accessible)
+
+## Citizen science
+- SPIPOLL https://ecology.usegalaxy.eu/u/ylebras/h/unnamed-history-1
+- STOC
+- Vigie-Chiro
+## DNA-based techniques
+
+## Satellite remote sensing
 
 
