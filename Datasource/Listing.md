@@ -830,16 +830,34 @@ Yes
 | Greek Biodiversity Database                                                                                                 |                                                                                                                                    | National                    |                         | Not Accessible                                                                                        | Greece                                                                                                 |                                                       |
 
 
-# From ANR IA & Biodiv initial discussions
+# From "ANR IA & Biodiv" initial discussions
 
 ## Zones humides
 - "Pressions sur les lagunes méditerranéennes" Ifremer-Agence de l'eau Rhône-Méditerranée-Corse, base ouverte / DCE
-- Données de l'observatoire méditerranéen des zones humides (Tour du Valat, détails en cours de transmission, Anne) [Ramsar https://tourduvalat.org/dossier-newsletter/agenda/attachment/ramsar/ et wetland?]
+- Données de l'observatoire méditerranéen des zones humides (Tour du Valat) [Ramsar https://tourduvalat.org/dossier-newsletter/agenda/attachment/ramsar/ et wetland?]
 - Waterbird population estimates http://wpe.wetlands.org/
+  - Waterbird Population Estimates 5 (2012)
+   - http://wpe.wetlands.org/bundles/voidwalkerswpe/images/wpe5.xls
+   - http://wpe.wetlands.org/bundles/voidwalkerswpe/images/wpe5.pdf
+  - Waterbird Population Estimates 4 (2007)
+   - http://wpe.wetlands.org/bundles/voidwalkerswpe/images/wpe4.xls
+  - Geospatial Datasets	
+   - Major Flyways http://wpe.wetlands.org/bundles/voidwalkerswpe/images/major_flyways.kml	
+   - Ramsar Regions http://wpe.wetlands.org/bundles/voidwalkerswpe/images/ramsar_regions.kml
+   - Biogeographic Regions http://wpe.wetlands.org/bundles/voidwalkerswpe/images/biogeographic_regions.kml
 
 
 ## Milieux marins
 - Arctic biodiversity database https://www.abds.is/
+  - index
+   - Arctic Land Cover Change Index 
+    - Vegetation Indices (MOD13C1) / Tif files like https://www.abds.is/index.php/land-cover-change-index-docman/vegetation/2013-10/6905-mod13c1-a2013129-005-2013148132052/file for one 2013 dataset
+    - Colored Dissolved Organic Matter (CDOM) (MYD24) 
+    - Land Cover Dynamics (Vegetation Phenology) (MCD12Q2) (ex 2004 https://www.abds.is/index.php/land-cover-change-index-docman/vegetationphenology/2004-3/5765-mcd12q2-a2004001-h06v03-005-2011209205229/file )
+    - LandCoverType 
+    - LandSurfaceTemperature 
+    - Marine Net PrimaryProductivity 
+    - Marine Chlorophyll a (MYD21) 
   - lien OBIS https://obis.org/node/da50007b-7871-46cf-8530-441b5836d2c1
   - lien GBIF https://www.gbif.org/publisher/44862593-2fdd-4491-ab79-b500b8272aac
   - lien GeoNetwork (catalogue MTD) : http://geo.abds.is/geonetwork/srv/fre/catalog.search#/home
@@ -859,13 +877,20 @@ Yes
 - données d'imagerie et de génomique déjà assignées = des tableaux d'abondance. imagerie=EcoTaxa, génomique=EBI
 - données de physique, biogéochimie, et météo des stations (profils CTD, dosages de nutriments, etc.) = pangaea.de
 - données de comptage bino/microscope sur le plancton (mais je ne sais pas où cela est stocké)
-  - voir https://unieuk.org/
+  - voir https://unieuk.org/ mais pas de données téléchargeable a priori
 
 ## Forêts et zones humides
 - Global Forest Watch https://www.globalforestwatch.org/map?map=eyJjZW50ZXIiOnsibGF0IjoyNywibG5nIjoxMn0sImJlYXJpbmciOjAsInBpdGNoIjowLCJ6b29tIjoyfQ%3D%3D&menu=eyJkYXRhc2V0Q2F0ZWdvcnkiOiJmb3Jlc3RDaGFuZ2UiLCJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIn0%3D
-  -> téléchargement de données possible ? Protocole de moissonnage ?
 - Global Forest Change https://earthenginepartners.appspot.com/science-2013-global-forest
   -> téléchargement de données via https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.6.html
+    - data similar to this dataset https://storage.googleapis.com/earthenginepartners-hansen/GFC-2018-v1.6/Hansen_GFC-2018-v1.6_treecover2000_40N_080W.tif available here: https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.6.html
+   - we can access it through R gfcanalysis package if I am not wrong:
+      ```
+      ### R code start ###
+      download_tiles(tiles, output_folder, images = c("treecover2000", "lossyear",
+      "gain", "datamask"), dataset = "GFC-2017-v1.5")
+      ### R code end ###
+      ```
 - State of the World's Forests http://www.fao.org/state-of-forests
   -> juste un rapport ? Téléchargement de données possible ? Protocole de moissonnage ?
 - Toutes les bases des observatoires nationaux des forêts (IFN, RSSDF, renecofor base ONF, bases RNF) + RESOS/ONCFS + RMQS/INRA. Bases ouvertes
