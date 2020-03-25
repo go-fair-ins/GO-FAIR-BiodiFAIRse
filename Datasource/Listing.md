@@ -830,6 +830,47 @@ Yes
 | Greek Biodiversity Database                                                                                                 |                                                                                                                                    | National                    |                         | Not Accessible                                                                                        | Greece                                                                                                 |                                                       |
 
 
+# From ANR IA & Biodiv initial discussions
+
+## Zones humides
+- "Pressions sur les lagunes méditerranéennes" Ifremer-Agence de l'eau Rhône-Méditerranée-Corse, base ouverte / DCE
+- Données de l'observatoire méditerranéen des zones humides (Tour du Valat, détails en cours de transmission, Anne) [Ramsar https://tourduvalat.org/dossier-newsletter/agenda/attachment/ramsar/ et wetland?]
+- Waterbird population estimates http://wpe.wetlands.org/
+
+
+## Milieux marins
+- Arctic biodiversity database https://www.abds.is/
+  - lien OBIS https://obis.org/node/da50007b-7871-46cf-8530-441b5836d2c1
+  - lien GBIF https://www.gbif.org/publisher/44862593-2fdd-4491-ab79-b500b8272aac
+  - lien GeoNetwork (catalogue MTD) : http://geo.abds.is/geonetwork/srv/fre/catalog.search#/home
+
+- Tara Océan
+  - métagénomique (liens avec Barcode of life ?)
+  -> données sous ENA
+    - https://www.ebi.ac.uk/ena/submit/tara-oceans-checklist
+    - https://www.ebi.ac.uk/ena/data/view/PRJEB402
+  -> données sous MGnify https://www.ebi.ac.uk/metagenomics/
+
+- Base du Global Fishing Watch (GFW), données publiques à haute résolution des mouvements individuels des navires de pêche issues de transpondeur AIS (‘automatic identification system’) ou le système VMS (‘vessel monitoring system’) 
+  - https://globalfishingwatch.org/datasets-and-code/
+
+- Données cotières des espèces maritimes : https://reeflifesurvey.com/survey-data/ -> Reef Life Survey http://reeflifesurvey.imas.utas.edu.au/portal/search
+
+- données d'imagerie et de génomique déjà assignées = des tableaux d'abondance. imagerie=EcoTaxa, génomique=EBI
+- données de physique, biogéochimie, et météo des stations (profils CTD, dosages de nutriments, etc.) = pangaea.de
+- données de comptage bino/microscope sur le plancton (mais je ne sais pas où cela est stocké)
+  - voir https://unieuk.org/
+
+## Forêts et zones humides
+- Global Forest Watch https://www.globalforestwatch.org/map?map=eyJjZW50ZXIiOnsibGF0IjoyNywibG5nIjoxMn0sImJlYXJpbmciOjAsInBpdGNoIjowLCJ6b29tIjoyfQ%3D%3D&menu=eyJkYXRhc2V0Q2F0ZWdvcnkiOiJmb3Jlc3RDaGFuZ2UiLCJtZW51U2VjdGlvbiI6ImRhdGFzZXRzIn0%3D
+  -> téléchargement de données possible ? Protocole de moissonnage ?
+- Global Forest Change https://earthenginepartners.appspot.com/science-2013-global-forest
+  -> téléchargement de données via https://earthenginepartners.appspot.com/science-2013-global-forest/download_v1.6.html
+- State of the World's Forests http://www.fao.org/state-of-forests
+  -> juste un rapport ? Téléchargement de données possible ? Protocole de moissonnage ?
+- Toutes les bases des observatoires nationaux des forêts (IFN, RSSDF, renecofor base ONF, bases RNF) + RESOS/ONCFS + RMQS/INRA. Bases ouvertes
+- PREDICTS https://www.predicts.org.uk/ avec jeu de données de 2016 https://data.nhm.ac.uk/dataset/the-2016-release-of-the-predicts-database CC-BY-4.0
+
 
 # silos de données "génériques" / large spectre / meta portail de données
 CoL / Fauna Europea search / GBIF / ITIS / NCBI / PESI / WoRMS  / DataOne / DEIMS / OBIS
