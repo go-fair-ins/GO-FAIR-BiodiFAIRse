@@ -292,7 +292,10 @@ Thank you for your data request. The request will be reviewed and you will recie
 ## Living Planet Index 
 - http://www.livingplanetindex.org/data_portal mais login obligatoire pour effectuer recherche et téléchargement
   -> https://figshare.com/articles/LPI_LPR2016data_public_csv/4300022/1 ici une version avec données publiques
-  
+```
+Time series of population abundance data for vertebrate species spanning years between 1970 and 2012. These data were used in the Living Planet Report 2016. Confidential records that cannot be shared have been removed from this data set. A beta version of the code used in calculation of the Living Planet Index using this data set can be found here https://github.com/Zoological-Society-of-London/rlpi
+```
+  -> Galaxy history: https://ecology.usegalaxy.eu/u/ylebras/h/living-planet-index-lpi
 ## MOL Map of Life
 - ~520 datasets https://mol.org/datasets/ listing des sources de données https://mol.org/datasets/list?dt=regionalchecklist,localinv&dt=regionalchecklist,localinv
   -> pas accès aux données
