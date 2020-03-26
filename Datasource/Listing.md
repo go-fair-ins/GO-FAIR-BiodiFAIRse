@@ -233,6 +233,9 @@ http://www.eurobis.org/data_access_services
 ## FishBase FishBase
 - infos taxo "poissons"
 
+## Freshwater Ecoregions of the World (PNDB personal addition)
+Ecoregion data but not sure we have access to fish database https://www.feow.org/download
+
 ## GBIF Global Biodiversity Information Facility
 - pas accès données brutes mas formattés au standard Darwin-Core Archive
 
@@ -383,8 +386,11 @@ Time series of population abundance data for vertebrate species spanning years b
 ## WPI Wildlife Picture Index
 - semble plus actif, il y a ce site peu fonctionnel https://wildlifepictureindex.onetam.org/WMS/#/
 
-## Wildfinder database
+## Wildfinder database (PNDB personal addition)
 Notably used for LPI paper in 2017 https://www.worldwildlife.org/pages/wildfinder-database
+```
+This database lists extant species within each ecoregion. From this database, we extracted species lists and totals for the terrestrial and freshwater biogeographic realms.
+```
 
 # FRB additionaly data sources
 ## TRY - 65 datasets from more than 90 contributors.
