@@ -41,6 +41,9 @@ datasets <- list_datasets(terrestrial = FALSE, marine = TRUE)
 * E-OBS gridded dataset : http://www.ecad.eu/download/ensembles/download.php
 * Global Lithological Map Database v1.0 https://doi.pangaea.de/10.1594/PANGAEA.788537
 
+## Pressure
+* Global fishing watch : https://globalfishingwatch.org/data-blog/new-data-download-portal/
+
 # Biodiversity and ecosystem services in environmental profit & loss accounts, Chaplin-Kramer et  al., 2016 
 Resource URL: https://www.cisl.cam.ac.uk/resources/publication-pdfs/BESinEPLWorkingPaper.pdf
 From "Table S1. A list of potential datasets for use in estimating biodiversity impacts. This list is not comprehensive but gives a flavour of some of the more promising types of data available"
