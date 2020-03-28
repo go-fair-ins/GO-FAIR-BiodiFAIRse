@@ -985,6 +985,10 @@ Population abundance
 - https://nvs.landcareresearch.co.nz/Data/DatasetDetails/4247/25913 permission required !  
 - "GCRMN Regional GCRMN datasets (Jackson et al., 2014; Obura et al., 2017; Moritz et al., 2018) are compiled and managed by GCRMN regional coordinators/data leads, in data files and programming code maintained on version-control platforms, such as GitHub"
   -> pas de lien github direct, pas accès au document qui décrit ce lien github, aucune des 3 publications mentionnées ne donne accès à des données (quand publication accessible)
+- Coral Reef Survey http://reeflifesurvey.imas.utas.edu.au/portal/search (Galaxy hitory https://ecology.usegalaxy.eu/u/ylebras/h/coral-reef-survey):
+  - Invertebrates (120 133 observations)
+  - Global reef fish dataset (552 010 observations, ~428 000 for Australia)
+  - Cryptic Fish (69695 observations)
 
 ## Citizen science
 - SPIPOLL https://ecology.usegalaxy.eu/u/ylebras/h/unnamed-history-1
