@@ -297,7 +297,8 @@ Thank you for your data request. The request will be reviewed and you will recie
 
 ## Living Planet Index 
 - http://www.livingplanetindex.org/data_portal mais login obligatoire pour effectuer recherche et téléchargement
-  -> https://figshare.com/articles/LPI_LPR2016data_public_csv/4300022/1 ici une version avec données publiques -> Errors in dataset lines 2804 - 2807 !
+  -> update / new version of LPI dataset (2018): http://www.livingplanetindex.org/documents/LPR2018data_public.csv
+  -> https://figshare.com/articles/LPI_LPR2016data_public_csv/4300022/1 here a version with useable dataset (2016) -> Errors in dataset lines 2804 - 2807 !
 ```
 Time series of population abundance data for vertebrate species spanning years between 1970 and 2012. These data were used in the Living Planet Report 2016. Confidential records that cannot be shared have been removed from this data set. A beta version of the code used in calculation of the Living Planet Index using this data set can be found here https://github.com/Zoological-Society-of-London/rlpi
 ```
