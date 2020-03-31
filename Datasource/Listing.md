@@ -12,6 +12,7 @@
   * `http://boldsystems.org/index.php/API_Public/specimen?taxon=taxon=Aves|Reptilia&geo=France&format=tsv`
 ## Environmental data
 * IPSL https://cse.ipsl.fr/donnees/114-prodiguer
+* CHIRPS Rainfall estimates https://www.chc.ucsb.edu/data/chirps/
 * WorldClim - Global Climate Data http://www.worldclim.org/
 * Copernicus Climate Change Service Providing climate data http://climate.copernicus.eu/
 * Copernicus Marine Environment Monitoring Service Providing products & services for all marine applications http://marine.copernicus.eu/
