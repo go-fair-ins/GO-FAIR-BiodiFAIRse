@@ -298,6 +298,9 @@ Thank you for your data request. The request will be reviewed and you will recie
 
 ## Living Planet Index 
 - http://www.livingplanetindex.org/data_portal mais login obligatoire pour effectuer recherche et téléchargement
+  -> wetland paper / first regional trend in the Living Planet Index for the Mediterranean wetlands (Med LPI)
+    - Long-term trends in the abundance of Mediterranean wetland vertebrates: From global recovery to localized declines https://www.sciencedirect.com/science/article/abs/pii/S000632071100005X
+    - `To be included in LPI calculation, data had to fit a number of criteria, following Collen et al. (2009). In brief, population size must be monitored for at least 2 points in time, the geographic location of the population as well as the data source must be available, and data must have been collected using the same method on the same population throughout the time series.`
   -> update / new version of LPI dataset (2018): http://www.livingplanetindex.org/documents/LPR2018data_public.csv
     - Data ready to use:
      - https://github.com/Zoological-Society-of-London/rlpi/blob/master/inst/extdata/example_data_with_wetlands/terrestrial_class_realms_infile.txt
