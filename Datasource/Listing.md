@@ -53,6 +53,7 @@ From "Table S1. A list of potential datasets for use in estimating biodiversity 
 ### PREDICTS & Local Biodiversity Intactness Index (LBII)
 An index based on land use data (updated annually and at 1k res) and a new, representative database of species records (>3.3m records, >50k spp)
 PREDICTS -> lien pour télécharger le fichier envoyé arpès renseignement e-mail http://data.nhm.ac.uk/resources/347731bf4982f5f6a8c15f16be2a0d6a-1851-1583619301.zip
+  -> Galaxy history https://ecology.usegalaxy.eu/u/ylebras/h/nhm-predict-database--local-biodiversity-intactness-index-lbii
 LBII -> error 4040
 
 ### Biodiversity Habitat Index (BHI)
