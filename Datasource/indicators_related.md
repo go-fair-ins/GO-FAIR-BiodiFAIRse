@@ -46,3 +46,6 @@ Time series of population abundance data for vertebrate species spanning years b
   - EBV class Community composition: Taxonomic diversity
   - EBV class Ecosystem function: Net primary productivity
   - EBV class Ecosystem structure: Ecosystem extent and fragmentation, Ecosystem composition by functional type, Ecosystem heterogeneity 
+  
+## SEBI (Streamlining European biodiversity indicators) :
+https://www.eea.europa.eu/themes/biodiversity/indicators#c5=all&c13=20&c10=SEBI&c7=all&b_start=0
