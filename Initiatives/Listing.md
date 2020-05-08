@@ -15,6 +15,8 @@
   * Arcticdata https://arcticdata.io/catalog/view/doi:10.18739/A2TQ5RD9K & Gulf of Alaska https://goa.nceas.ucsb.edu/#data show cutting edge Metacat/Metacatui https://github.com/NCEAS/metacatui data portal implementations
   * NEON https://data.neonscience.org/home using metacat in back-end but dedicated UI
   * Environmental Data Initiative (EDI) https://portal.edirepository.org/nis/home.jsp , a secure data repository and work closely with the LTER Network Communications Office and DataONE to promote data management best practices and stewardship
+  * Easier Access to Scientific Data [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=fish) with attribute information: https://coastwatch.pfeg.noaa.gov/erddap/info/ecocast/index.html
+
 * Australia
   * LTER Network https://www.ltern.org.au/based based on metacat. there is partintioning into Supersites https://supersites.tern.org.au/about-us/what-is-a-supersite
 
