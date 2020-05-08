@@ -22,7 +22,14 @@
       * regionalGAM
       * rtrim
       * MSI-tool
-* [Species distribution modeling](https://cran.r-project.org/web/packages/dismo/vignettes/sdm.pdf)
+* [Species distribution modeling](https://cran.r-project.org/web/packages/dismo/vignettes/sdm.pdf) SDM
+  * Wallace Shiny app
+  * BCCVL (Sarah Richmond) tools & workflows:
+    * https://github.com/BCCVL/data_conversion
+    * https://github.com/BCCVL/org.bccvl.tasks/tree/develop/src/org/bccvl/tasks/datamover
+    * https://github.com/BCCVL/org.bccvl.compute -> Collection and wrappers of R compute scripts
+scripts R pour biomod2 https://github.com/BCCVL/org.bccvl.compute/blob/develop/src/org/bccvl/compute/rscripts/bccvl.R
+    * xml who can be mapped with Galaxy xml ? https://github.com/BCCVL/org.bccvl.compute/blob/develop/src/org/bccvl/compute/content/toolkit/bioclim/bioclim.xml
 * [Maxent](https://biodiversityinformatics.amnh.org/open_source/maxent/)
 * GIS data handling
    * [Geospatial Abstracation Data Librairy](http://www.gdal.org/)
