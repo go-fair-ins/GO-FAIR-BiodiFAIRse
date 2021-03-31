@@ -1035,4 +1035,4 @@ Population abundance
 
 ## References
 - 2019 CEFE french lab data listing https://gist.github.com/cybernar/8009568330d576df0fdbd2f25b0531f4#file-gisdata2019-md
-- 
+- BBall-Damerow JE, Brenskelle L, Barve N,Soltis PS, Sierwald P, Bieler R, et al. (2019)Research applications of primary biodiversity databases in the digital age. PLoS ONE 14(9):e0215794. https://doi.org/10.1371/journal.pone.0215794
