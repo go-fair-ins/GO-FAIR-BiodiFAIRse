@@ -41,6 +41,11 @@ datasets <- list_datasets(terrestrial = FALSE, marine = TRUE)
 * Chelsea Climate (Climatologies at high resolution for the earth’s land surface areas ): http://chelsa-climate.org/
 * E-OBS gridded dataset : http://www.ecad.eu/download/ensembles/download.php
 * Global Lithological Map Database v1.0 https://doi.pangaea.de/10.1594/PANGAEA.788537
+* ESA Earth online https://earth.esa.int/web/guest/data-access/browse-data-products
+* Earth data USGS NASA MODIS https://lpdaac.usgs.gov/product_search/
+* NASA Data archive and information services for Atmospheric Composition / Water & Energy Cycles / Climate Variability https://disc.gsfc.nasa.gov/
+* Main website for NASA Earth Science data search & download https://search.earthdata.nasa.gov/
+* NASA Global Change Master Directory GCMD https://gcmd.nasa.gov/
 
 ## Pressure
 * Global fishing watch : https://globalfishingwatch.org/data-blog/new-data-download-portal/
@@ -1028,3 +1033,6 @@ Population abundance
 ## Satellite remote sensing
 
 
+## References
+- 2019 CEFE french lab data listing https://gist.github.com/cybernar/8009568330d576df0fdbd2f25b0531f4#file-gisdata2019-md
+- 
