@@ -1,4 +1,7 @@
 # From PNDB first screening
+* Existing listing of data sources:
+  * Free GIS geographic datasets: http://freegisdata.rtwilson.com/
+
 ## Species / In-situ data
 * Using R for occurences data through the spocc package: https://github.com/ropensci/spocc
 * Using mapr to display species occurences https://github.com/ropensci/mapr
@@ -34,7 +37,7 @@ datasets <- list_datasets(terrestrial = FALSE, marine = TRUE)
 * CRBPO data https://crbpodata.mnhn.fr/
 * Movebank data https://www.movebank.org/
 * API-Agro import agrifood related data http://www.api-agro.fr/
-* Free GIS geographic datasets: http://freegisdata.rtwilson.com/
+* +++++ Free GIS geographic datasets: http://freegisdata.rtwilson.com/
 * Global Environmental Layers: http://worldgrids.org/doku.php
 * World Conservation Monitoring Centre: https://www.unep-wcmc.org/
  * World Database on Protected Areas (WDPA) is the most comprehensive global database on terrestrial and marine protected areas.: https://protectedplanet.net/
